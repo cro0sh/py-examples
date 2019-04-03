@@ -1,13 +1,7 @@
 import tkinter as tk
 import tkinter.ttk as ttk
 
-## result: output to spreadsheet
-## to do: get food db, or make it, output to spreadsheet,
-# daily questions dialog/buttons/etc, 
-## 'estimated values for how good/bad', remove items/meals,
-# auto upload to amzn aws for easy access 
-
-class Application(tk.Tk):
+class meals_app(tk.Tk):
     def __init__(a, zero=None):
         super().__init__(zero)
         a.zero = zero
@@ -394,7 +388,7 @@ class Application(tk.Tk):
         print('---')
 
 ##root = tk.Tk()
-app = Application()
+app = meals_app()
 app.mainloop()
 
 ##
